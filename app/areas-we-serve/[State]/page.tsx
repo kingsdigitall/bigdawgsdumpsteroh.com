@@ -85,15 +85,15 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
     telephone: `${ContactInfo.No}`,
     address: {
       "@type": "PostalAddress",
-      streetAddress: `${ContactInfo.address}`,
-      addressLocality: `${ContentData?.name}`,
-      addressRegion: `${State.split("-").pop()?.toUpperCase()}`,
-      postalCode: `${ContentData?.zipCodes.split("|")[0] || ""} `,
+      streetAddress: ContactInfo.address.split(",")[0].trim(),
+      addressLocality: ContactInfo.location.split(",")[0].trim(),
+      addressRegion: ContactInfo.location.split(",")[1].trim(),
+      postalCode: ContactInfo.zipCode.trim(),
       addressCountry: "United States",
     },
     areaServed: {
       "@type": "Place",
-      name:  `${ContentData?.name}`,
+      name: `${ContentData?.name}`,
       address: {
         "@type": "PostalAddress",
         postalCode: `${ContentData?.zipCodes.split("|")[0]}`,
@@ -139,65 +139,15 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
       },
     },
   };
-
-  // {
-  //   "@context": "https://schema.org",
-  //   "@graph": [
-  //     {
-  //       "@context": "https://schema.org",
-  //       "@type": "LocalBusiness",
-  //       name: `${stateName[abbrevations.toUpperCase()]} Plumbing Services`,
-  //       image: `https://${State}.${ContactInfo.host}/_next/image?url=%2Flogo.png&w=1080&q=75`,
-  //       address: {
-  //         "@type": "PostalAddress",
-  //         streetAddress: `${stateName[abbrevations.toUpperCase()]} Plumbing Services`,
-  //         addressLocality: `${ContentData?.name}, ${abbrevations.toUpperCase()}`,
-  //         addressRegion: stateName[abbrevations.toUpperCase()],
-  //         postalCode: ContentData?.zipCodes.split("|")[0] || "",
-  //         addressCountry: "US",
-  //       },
-  //       review: {
-  //         "@type": "Review",
-  //         reviewRating: {
-  //           "@type": "Rating",
-  //           ratingValue: "4.9",
-  //           bestRating: "5",
-  //         },
-  //         author: {
-  //           "@type": "Person",
-  //           name: `${stateName[abbrevations.toUpperCase()]} Plumbing Services`,
-  //         },
-  //       },
-  //       telephone: ContactInfo.No,
-  //       openingHoursSpecification: {
-  //         "@type": "OpeningHoursSpecification",
-  //         dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-  //         opens: "09:00",
-  //         closes: "20:00",
-  //       },
-  //     },
-  //     {
-  //       "@context": "https://schema.org",
-  //       "@type": "Product",
-  //       name: `Plumbing Services in ${ContentData?.name}, ${abbrevations.toUpperCase()}`,
-  //       brand: {
-  //         "@type": "Brand",
-  //         name: `Plumbing Services ${ContentData?.name}, ${abbrevations.toUpperCase()} Pros`,
-  //       },
-  //       description: `${ContentData?.metaDescription}`,
-  //       url: `https://${State}.${ContactInfo.host}`,
-  //       aggregateRating: {
-  //         "@type": "AggregateRating",
-  //         reviewCount: 7,
-  //         ratingValue: 4.802,
-  //       },
-  //     },
-  //   ],
-  // };
   return (
     <div className="mx-auto max-w-[2100px] overflow-hidden">
-      <section><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /></section>
-      
+      <section>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </section>
+
       <Banner
         h1={`${ContentData.h1Banner} ${ContentData.zipCodes && ContentData.zipCodes.split("|")[0]}`}
         image={ContentData.bannerImage}

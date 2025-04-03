@@ -4,6 +4,8 @@ import data from "@/components/Content/serviceWidgetContent.json";
 import content from "@/components/Content/subDomainUrlContent.json";
 import { MdDoubleArrow } from "react-icons/md";
 import Link from "next/link";
+import ContactInfo from "@/components/Content/ContactInfo.json";
+
 interface ServiceItem {
   imageUrl: string;
   slug: string;
@@ -26,7 +28,7 @@ const Service = ({ value = "" }: any) => {
     ? abbrevation
       ? `${contentData.name}, ${abbrevation}`
       : contentData.name
-    : "Volant, PA";
+    : ContactInfo?.location;
   return (
     <div className=" px-4  md:px-10">
       <h2 className="text-first text-center text-3xl font-bold text-main">
