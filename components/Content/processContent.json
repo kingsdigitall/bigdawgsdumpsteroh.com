@@ -1,0 +1,22 @@
+{
+  "title": "Our Simple 4-Step Dumpster Rental Process",
+  "description": "",
+  "steps": [
+    {
+      "title": "Step 1: Get a Quote",
+      "description": "Call us or fill out our quick form. Tell us what type of project you’re tackling, and we’ll recommend the right dumpster size along with an instant quote."
+    },
+    {
+      "title": "Step 2: Schedule Delivery",
+      "description": "Pick your delivery day and time—same-day or next-day options available. We’ll confirm everything and get your bin out on the truck."
+    },
+    {
+      "title": "Step 3: Load at Your Pace",
+      "description": "Fill up your dumpster on your schedule. Whether it’s over the weekend or across a few weeks, we’ll work with your timeline and your needs."
+    },
+    {
+      "title": "Step 4: We Haul It Away",
+      "description": "When you're done, give us a call. We’ll pick up the dumpster promptly, dispose of everything properly, and leave your space clean and clear."
+    }
+  ]
+}
