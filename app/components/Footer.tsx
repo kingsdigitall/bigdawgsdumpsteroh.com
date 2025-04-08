@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="mt-8 flex w-fit flex-col justify-center gap-2 px-6  md:w-full  md:flex-row md:items-start   md:justify-around md:px-20 ">
             <div className="mt-4 flex   items-center justify-center text-2xl md:mt-0 md:w-52">
               <Image
-                src={`/${contentData.logo}`}
+                src={`https://ik.imagekit.io/serviceproviders/bigdawgsdumpsteroh.com/logo.png?updatedAt=1744104534123`}
                 height={10000}
                 width={10000}
                 className="w-full object-cover  "
