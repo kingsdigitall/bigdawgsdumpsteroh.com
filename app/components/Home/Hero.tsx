@@ -16,7 +16,7 @@ const Hero = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Middletown Water Heater Pros",
+    name: `${ContactInfo.name}`,
     image:
       "https://ik.imagekit.io/serviceproviders/bigdawgsdumpsteroh.com/logo.png?updatedAt=1744104534123",
     "@id": `${ContactInfo.baseUrl}`,
@@ -68,7 +68,6 @@ const Hero = () => {
       },
     },
   };
-
   const slugs: any = Object.keys(cityData).map((key) => cityData[key]);
   return (
     <div className="w-screen overflow-hidden  md:flex md:w-full md:flex-col md:items-center md:justify-center">
