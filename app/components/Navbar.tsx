@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="flex">
               <Link href="/" aria-label="Home">
                 <Image
-                  src="/logo.png"
+                  src="https://ik.imagekit.io/serviceproviders/bigdawgsdumpsteroh.com/logo.png?updatedAt=1744104534123"
                   className=" md:mr-3 w-40 md:w-32 h-full object-contain "
                   alt="logo of the company"
                   title=""
