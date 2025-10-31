@@ -8,6 +8,11 @@
   "address": "1690 Fisher Road Columbus, OH 43228",
   "service": "Dumpster Rental Services",
   "location": "Columbus, OH ",
-  "zipCode": "43228"
+  "zipCode": "43228",
+  "bannerImage": "https://ik.imagekit.io/serviceproviders/bigdawgsdumpsteroh.com/banner.jpg?updatedAt=1744104528488",
+  "logoImage": "https://ik.imagekit.io/serviceproviders/bigdawgsdumpsteroh.com/logo.png?updatedAt=1744104534123",
+  "favicon": "",
+  "googleAnalytics": "",
+  "main": "#ff914b",
+  "minor": "#cc743c"
 }
-

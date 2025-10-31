@@ -43,10 +43,262 @@
       }
     ]
   },
+  "affordableWidget": {
+    "title": "A Better Way to Rent Dumpsters",
+    "description": "We’ve taken the hassle out of dumpster rental in Columbus. Here’s how we make it easy, clear, and convenient for you:",
+    "ctaText": "Call Now",
+    "cards": [
+      {
+        "title": "Simple Booking Process",
+        "description": "No long forms. No runaround. One quick call and we’ll get you scheduled in minutes."
+      },
+      {
+        "title": "Licensed Waste Disposal",
+        "description": "We follow state regulations and local guidelines to ensure all your waste is handled responsibly."
+      },
+      {
+        "title": "Reliable Customer Support",
+        "description": "From first inquiry to final pickup, our team is ready to answer your questions and help you out."
+      }
+    ]
+  },
+  "processWidget": {
+  "title": "Our Simple 4-Step Dumpster Rental Process",
+  "description": "",
+  "steps": [
+    {
+      "title": "Step 1: Get a Quote",
+      "description": "Call us or fill out our quick form. Tell us what type of project you’re tackling, and we’ll recommend the right dumpster size along with an instant quote."
+    },
+    {
+      "title": "Step 2: Schedule Delivery",
+      "description": "Pick your delivery day and time—same-day or next-day options available. We’ll confirm everything and get your bin out on the truck."
+    },
+    {
+      "title": "Step 3: Load at Your Pace",
+      "description": "Fill up your dumpster on your schedule. Whether it’s over the weekend or across a few weeks, we’ll work with your timeline and your needs."
+    },
+    {
+      "title": "Step 4: We Haul It Away",
+      "description": "When you're done, give us a call. We’ll pick up the dumpster promptly, dispose of everything properly, and leave your space clean and clear."
+    }
+  ]
+},
+  "hourCtaWidget": {
+    "title": "Need Roof or Gutter Service Fast? Call Now for a Free Quote!"
+},
   "h3": "About Us: We Are Dumpster Rental Pros",
   "p3": "At Columbus Dumpster Rental Pros, we’re not just another rental company—we’re part of the community. As a locally owned and operated business, we’ve spent years earning the trust of homeowners, contractors, and business owners across Columbus. Our team brings deep knowledge of local building codes, waste disposal guidelines, and neighborhood logistics, which means fewer delays and smoother service for you.<br/><br/>We’ve delivered thousands of dumpsters across the city—from downtown construction sites to suburban home renovations. With an experienced crew, modern equipment, and a genuine care for our customers, we make sure every rental is seamless from drop-off to haul-away.",
   "h3Image": "https://ik.imagekit.io/serviceproviders/bigdawgsdumpsteroh.com/two-blue-overfilled-waste-bins.jpeg?updatedAt=1744104529529",
-  "faq": [],
-  "testimonials": [],
+  "faq": [
+  {
+    "FAQ": "What sizes of dumpsters are available in [location]?",
+    "Answer": "We offer a range of dumpster sizes in [location], including 10-yard, 20-yard, 30-yard, and 40-yard options depending on your project needs."
+  },
+  {
+    "FAQ": "How soon can I get a dumpster delivered in [location]?",
+    "Answer": "In most cases, we can deliver your dumpster in [location] the same or next business day. Early booking is recommended for guaranteed availability."
+  },
+  {
+    "FAQ": "Do I need a permit for dumpster rental in [location]?",
+    "Answer": "Permits are usually required if the dumpster is placed on a public street in [location]. We'll guide you through the process if needed."
+  },
+  {
+    "FAQ": "How long can I keep the dumpster in [location]?",
+    "Answer": "Standard rental periods in [location] range from 7 to 14 days. Need more time? Let us know and we'll extend it at a low daily rate."
+  },
+  {
+    "FAQ": "What items are not allowed in the dumpster in [location]?",
+    "Answer": "Hazardous waste, tires, batteries, paint, and flammable liquids are not allowed. We'll provide a full list of restricted items for [location]."
+  },
+  {
+    "FAQ": "Can I place a dumpster on my driveway in [location]?",
+    "Answer": "Yes, most of our dumpsters can be safely placed on driveways in [location]. We use boards underneath to prevent surface damage."
+  },
+  {
+    "FAQ": "Do you offer same-day dumpster rental in [location]?",
+    "Answer": "Yes, we offer same-day delivery in [location] when available. Call early to check availability and secure your drop-off time."
+  },
+  {
+    "FAQ": "What's the best dumpster size for a home renovation in [location]?",
+    "Answer": "For most home renovations in [location], a 20-yard or 30-yard dumpster works best. We can help you choose based on your project size."
+  },
+  {
+    "FAQ": "Is there a weight limit for the dumpster in [location]?",
+    "Answer": "Yes, each dumpster has a weight limit based on size. Exceeding it may result in overage fees. We'll review limits during your rental in [location]."
+  },
+  {
+    "FAQ": "Can I move the dumpster after it's been placed in [location]?",
+    "Answer": "We strongly advise against moving the dumpster yourself in [location]. Contact us if it needs repositioning and our team will assist."
+  },
+  {
+    "FAQ": "Can I fill the dumpster to the top in [location]?",
+    "Answer": "Please keep debris level with the top edge. Overfilling the dumpster in [location] can lead to safety hazards and extra fees."
+  },
+  {
+    "FAQ": "How much does it cost to rent a dumpster in [location]?",
+    "Answer": "Dumpster rental pricing in [location] depends on size, duration, and type of debris. Call us or get an instant quote online."
+  },
+  {
+    "FAQ": "Can I rent a dumpster for a single day in [location]?",
+    "Answer": "Yes, short-term rentals are available in [location]. Let us know your timeline and we'll recommend the best option for your project."
+  },
+  {
+    "FAQ": "What happens if I fill the dumpster before the rental period ends in [location]?",
+    "Answer": "You can schedule an early pickup or request an empty-and-return service in [location] for larger or ongoing jobs."
+  },
+  {
+    "FAQ": "Can I extend my dumpster rental if I need more time in [location]?",
+    "Answer": "Absolutely. Just give us a call to extend your rental period in [location] at a low daily or weekly rate."
+  },
+  {
+    "FAQ": "Are there extra fees for mattresses or appliances in [location]?",
+    "Answer": "Some items like mattresses, appliances, or electronics may carry a disposal fee in [location]. We'll give you the full list upfront."
+  },
+  {
+    "FAQ": "Is weekend delivery available for dumpsters in [location]?",
+    "Answer": "In many cases, yes. Weekend delivery is available in [location] depending on availability. Book early to lock it in."
+  },
+  {
+    "FAQ": "How big of a space do I need for a dumpster in [location]?",
+    "Answer": "Most dumpsters need about 30-40 feet of clear space. Driveway or curbside options are available in [location]-we'll help you choose."
+  },
+  {
+    "FAQ": "Can I rent multiple dumpsters for one project in [location]?",
+    "Answer": "Yes, we provide multiple units for large-scale projects in [location]. Just let us know the scope and we'll schedule delivery accordingly."
+  },
+  {
+    "FAQ": "What if it rains while I have the dumpster in [location]?",
+    "Answer": "Rain won't damage the dumpster, but covering it with a tarp can help keep light materials dry and reduce weight if you're charged by tonnage."
+  }
+],
+  "reviews": [
+  {
+    "Review": "We booked a small dumpster for our garage cleanout and honestly, it made everything easier. Great communication and fast pickup after we were done."
+  },
+  {
+    "Review": "I rented a dumpster in [location] during my kitchen remodel and it was a game-changer. It was affordable and super easy to schedule."
+  },
+  {
+    "Review": "We booked a small dumpster for our garage cleanout and honestly, it made everything easier. Simple, affordable, and exactly what we needed."
+  },
+  {
+    "Review": "I rented a dumpster in [location] during my kitchen remodel and it was a game-changer. Everything was smooth, from booking to pickup."
+  },
+  {
+    "Review": "I rented a dumpster in [location] during my kitchen remodel and it was a game-changer. No damage, no stress-just solid, friendly service."
+  },
+  {
+    "Review": "We booked a small dumpster for our garage cleanout and honestly, it made everything easier. Felt like they actually cared. Will rent again."
+  },
+  {
+    "Review": "Our basement cleanout would've been a nightmare without their quick service. Great communication and fast pickup after we were done."
+  },
+  {
+    "Review": "I didn't expect to need one, but this dumpster rental in [location] saved us after the storm. Saved us hours of hauling-worth every dollar."
+  },
+  {
+    "Review": "We had piles of yard waste and the dumpster arrived exactly when we needed it. Everything was smooth, from booking to pickup."
+  },
+  {
+    "Review": "We were finishing a roof project and their dumpster showed up right on schedule. Felt like they actually cared. Will rent again."
+  },
+  {
+    "Review": "We were finishing a roof project and their dumpster showed up right on schedule. Simple, affordable, and exactly what we needed."
+  },
+  {
+    "Review": "I didn't expect to need one, but this dumpster rental in [location] saved us after the storm. Felt like they actually cared. Will rent again."
+  },
+  {
+    "Review": "We're so glad we went with them for our attic cleanout dumpster in [location]. Fair price and no hidden fees. Totally recommend."
+  },
+  {
+    "Review": "I didn't expect to need one, but this dumpster rental in [location] saved us after the storm. Driver was courteous and handled everything with care."
+  },
+  {
+    "Review": "We were finishing a roof project and their dumpster showed up right on schedule. No damage, no stress-just solid, friendly service."
+  },
+  {
+    "Review": "My office was moving, and their roll-off dumpster helped us clear out fast. Felt like they actually cared. Will rent again."
+  },
+  {
+    "Review": "I rented a dumpster in [location] during my kitchen remodel and it was a game-changer. Felt like they actually cared. Will rent again."
+  },
+  {
+    "Review": "I called in the morning and the dumpster was in my driveway by afternoon. Simple, affordable, and exactly what we needed."
+  },
+  {
+    "Review": "I was impressed by how clean and on-time their dumpster delivery was in [location]. No damage, no stress-just solid, friendly service."
+  },
+  {
+    "Review": "I didn't expect to need one, but this dumpster rental in [location] saved us after the storm. Simple, affordable, and exactly what we needed."
+  },
+  {
+    "Review": "Our basement cleanout would've been a nightmare without their quick service. Felt totally taken care of from start to finish."
+  },
+  {
+    "Review": "I called in the morning and the dumpster was in my driveway by afternoon. Saved us hours of hauling-worth every dollar."
+  },
+  {
+    "Review": "My office was moving, and their roll-off dumpster helped us clear out fast. Simple, affordable, and exactly what we needed."
+  },
+  {
+    "Review": "I rented a dumpster in [location] during my kitchen remodel and it was a game-changer. Felt totally taken care of from start to finish."
+  },
+  {
+    "Review": "We're so glad we went with them for our attic cleanout dumpster in [location]. Everything was smooth, from booking to pickup."
+  },
+  {
+    "Review": "We booked a small dumpster for our garage cleanout and honestly, it made everything easier. It was affordable and super easy to schedule."
+  },
+  {
+    "Review": "I rented a dumpster in [location] during my kitchen remodel and it was a game-changer. Driver was courteous and handled everything with care."
+  },
+  {
+    "Review": "Dropped it right where I asked, and picked it up without a fuss. We actually finished early thanks to the convenience."
+  },
+  {
+    "Review": "Never thought renting a dumpster in [location] would be this easy. Didn't expect to be impressed, but I was."
+  },
+  {
+    "Review": "Customer service was actually helpful-which is rare these days. Felt more like a service than a drop-and-go."
+  },
+  {
+    "Review": "From call to clean-up, the whole process was smoother than expected. Nice driver, clean container, fair price."
+  },
+  {
+    "Review": "This was our first time needing a dumpster, and they made it stress-free. Felt more like a service than a drop-and-go."
+  },
+  {
+    "Review": "Wasn't sure what size to get, but they walked me through it. We actually finished early thanks to the convenience."
+  },
+  {
+    "Review": "You don't expect a dumpster rental to be memorable, but here we are. Would 100% use again if the junk piles up."
+  },
+  {
+    "Review": "Dropped it right where I asked, and picked it up without a fuss. They nailed it. Simple as that."
+  },
+  {
+    "Review": "Never thought renting a dumpster in [location] would be this easy. Would 100% use again if the junk piles up."
+  },
+  {
+    "Review": "Customer service was actually helpful-which is rare these days. We actually finished early thanks to the convenience."
+  },
+  {
+    "Review": "You don't expect a dumpster rental to be memorable, but here we are. Didn't expect to be impressed, but I was."
+  },
+  {
+    "Review": "From call to clean-up, the whole process was smoother than expected. Everything just worked, and that's all I wanted."
+  },
+  {
+    "Review": "Clean unit, on-time drop-off, and zero driveway damage. We actually finished early thanks to the convenience."
+  },
+  {
+    "Review": "Dropped it right where I asked, and picked it up without a fuss. One less thing to worry about. Appreciate it."
+  },
+  {
+    "Review": "They worked around our schedule and made sure it fit the space. Everything just worked, and that's all I wanted."
+  }
+],
   "mapLink": "https://maps.google.com/maps?q=Columbus+OH&t=&z=11&ie=UTF8&iwloc=&output=embed"
 }

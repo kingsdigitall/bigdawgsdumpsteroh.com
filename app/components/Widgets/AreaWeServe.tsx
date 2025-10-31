@@ -1,11 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import ContactInfo from "@/components/Content/ContactInfo.json";
 import Link from "next/link";
 
 const AreaWeServe = ({ slugs }: any) => {
   const [showAll, setShowAll] = useState(false);
-  const initialCount = 10;
+  const initialCount = 12;
 
   const handleReadMore = () => {
     setShowAll(true);
